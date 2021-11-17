@@ -21,7 +21,7 @@ a{
 }
 html {
     font-size: 65%;
-    box-sizing: border-box; *
+    box-sizing: border-box; 
 }
 
 body, input {
@@ -36,34 +36,40 @@ ul{
 }
 
 button{
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Lobster', cursive;
     font-family: 'M PLUS Code Latin', sans-serif;
     background-color: var(--pink);
 }
 
 .navigation{
-    position: relative; *
-    height: 7rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+    position: relative; 
+    height: 0 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 .container{
-    width: 100%;
-    max-width: 20px;
-    margin: 10px;
-    padding: 10px;
+   margin: 0 auto;
+   width: 100%;
+   padding: 0 5px;
+   max-width: 1000px;
 }
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;  *
-    height: 30px;
+    justify-content: space-between;  
+    height: 80px;
     width: 100%;
+    padding: 0 5px;
 }
 .nav_list{
     display: flex;
     
 }
 .nav_item{
-    margin: 10px;
+    margin: 10px 30px;  
+    
+}
+
+.nav_controller {
+    display: flex;
 }
