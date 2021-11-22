@@ -58,11 +58,16 @@ button{
     align-items: center;
     justify-content: space-between;  
     height: 100px;
-    width: 100%;
+    width: auto;
    line-height: 100px;
 }
-.nav .logo{
-    margin: 0 30px;
+
+.nav {
+    margin: auto;
+}
+.logo{
+    margin: 0 35px;
+  
 }
 .nav_list{
     display: flex;
@@ -81,7 +86,7 @@ button{
 .nav_controller {
     display: flex;
     padding: 0 20px;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 
@@ -89,15 +94,33 @@ button{
     margin: 0 0 0 40px;
 }
 .nav_search {
-    padding: 0 15px;
+    margin: 0 10px;
+}
+.nav_search:focus{
+    color: var(--pink);
+}
+.nav_search:hover{
+    color: var(--pink);
 }
 .nav_shop{
     
-padding: 0 15px;
+    margin: 0 10px;
+}
+.nav_shop:focus{
+    color: var(--pink);
+}
+.nav_shop:hover{
+    color: var(--pink);
 }
 .nav_accout{
     
-padding: 0 15px;
+margin: 0 10px;
+}
+.nav_accout:focus{
+    color: var(--pink);
+}
+.nav_accout:hover{
+    color: var(--pink);
 }
 
 
